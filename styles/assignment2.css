@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles  */
+.display-flex{
+    display: flex;
+}
+
+.text-tomato{
+    color: #E6533C;
+}
+.text-b-white{
+    color: #FFFFFF;
+}
+.text-s-white{
+    color: rgba(255, 255, 255, 0.5);
+}
+.bg-1{
+    background-color: black;
+}
+.btn-primary{
+    background-color: #E6533C;
+    color: #FFFFFF;
+    padding: 16px 46px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: none;
+
+}
+/* main{
+    max-width: 1440px;
+    margin: 0 auto;
+} */
+
+
+
+
+
+
+/* header styles  */
+
+
+
+/* navbar related styles  */
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.navbar{
+    justify-content:space-between;
+    align-items: center; 
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 400px;
+    font-size: 1rem;
+    
+}
+.home{
+    background-color: #E6533C;
+    border-radius: 8px;
+    border: none;
+    font-weight: 400px;
+    font-size: 1rem;
+   
+}
+.nav-links{
+    border: 1px solid black;
+    border-radius: 10px;
+
+    
+
+}
+.brand{
+    font-weight: bolder;
+    font-size: 2.1rem;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* banner related styles  */
+.banner-title{
+    font-weight: bolder;
+    font-size: 4.8rem;
+}
+.banner-description{
+    font-weight: 400px;
+    font-size: 1rem;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.button{
+    background-color: black;
+    color: #FFFFFF;
+    padding: 16px 46px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: 1px solid white;
+    margin-left: 10px;
+
+}
+.mobile{
+    display: none;
+}
+.banner-container-1{
+    margin-right: 167px;
+}
+.banner-image{
+    width: 100%;
+}
+
+/* change habit related styles  */
+.habit{
+    margin: 0 auto;
+    text-align: center;
+    padding: 105px 365px 58px 186px;
+}
+.habit-card{
+    
+    width: 231px;
+    height: 274px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.habit-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    
+    
+}
+.habit-description{
+    font-size: 0.9rem;
+    font-weight: 40px;
+    margin-bottom: 58px;
+}
+.habit-type{
+    font-size: 1rem;
+    font-weight: 600px;
+    margin-top: 30px;
+    margin-bottom: 6px;
+}
+.r-image{
+    border-radius: 50%;
+}
+.habit-title{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+
+/* responsive media quarry  */
+
+@media screen and (max-width: 576px) {
+    .hide{
+        display: none;
+    }
+    .banner{
+        flex-direction: column;
+    }
+    .banner-title{
+        font-size: 2.2rem;
+    }
+    .btn-primary{
+        /* font-size: 0.8rem; */
+
+        margin-left: 20px;
+        margin-right: 21px;
+    }
+    
+    .button{
+        margin-left: 14px;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: inline;
+    }
+
+    /* habit responsiveness  */
+    .habit{
+        padding: 0px 37px 58px 38px;
+    }
+    .habit-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+        justify-items: center;
+    }
+
+}
