@@ -161,6 +161,52 @@
     font-weight: bolder;
 }
 
+/* run extra mile related styles  */
+.run{
+    max-width: 1060px;
+    max-height: 371px;
+    background-color: #222222;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.run-image{
+    max-width: 365px;
+    max-height: 312px;
+    padding: 30px 32px 29px 165px;
+    border-radius: 18px;
+
+
+ 
+    
+}
+.run-container{
+    padding: 41px  40px 54px;
+
+} 
+/* BMI calculator related styles  */
+.BMI{
+    max-width: 671px;
+    max-height: 120px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+.b-title{
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+.b-description{
+    font-weight: 400px;
+    font-size: 0.8rem;
+
+}
+.BMI-container{
+    max-height: 487px;
+    background-color: #222222;
+    margin: 0 auto;
+}
+ 
+
 
 /* responsive media quarry  */
 
@@ -199,6 +245,21 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 40px;
         justify-items: center;
+    }
+
+    /* run extra responsiveness  */
+    .run{
+        max-width: 353px;
+        max-height: 531px;
+    }
+    .run-image{
+        max-width: 287px;
+        max-height: 170px;
+        padding: 20px 28px 35px 43px;
+        
+    }
+    .run-card{
+        flex-direction: column;
     }
 
 }
