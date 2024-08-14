@@ -47,6 +47,11 @@
 
 
 /* header styles  */
+.bg-h{
+    max-width: 1440px;
+    max-height: 715px;
+    background-color: #191919;
+}
 
 
 
@@ -183,34 +188,142 @@
     padding: 41px  40px 54px;
 
 } 
-/* BMI calculator related styles  */
+/* BMI description calculator related styles  */
 .BMI{
-    max-width: 671px;
-    max-height: 120px;
-    margin: 0 auto;
-    /* text-align: center; */
+    width: 815px;
+    height: 150px;
+    margin: 0 auto;  
+ padding: 96px 384px 88px 384px; 
+
+    
 }
+
 .b-title{
     font-weight: bold;
     font-size: 3rem;
+    padding-bottom: 1px;
 
 }
 .b-description{
     font-weight: 400px;
     font-size: 0.8rem;
+    padding-bottom: 30px;
 
 }
+/* BMI table and form related styles  */
+
 .BMI-container{
-    max-height: 487px;
+    height: 487px;
     background-color: #222222;
     margin: 0 auto;
+    justify-content: space-around;
 }
- 
+table{
+    border-collapse: collapse;
+   
+}
+td, th{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+.table{
+    height: 200px;
+   
+}
+.tb{
+    padding: 52px 175px 133px 189px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.gap{
+    display: flex;
+    gap: 10px;
+}
+.height{
+    width: calc(50% - 5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.6);
+
+ }
+ .weight{
+    width: calc(50% - 5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.6);
+
+
+ }
+ .age{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.6);
+
+
+ }
+ .Sex{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.6);
+
+
+ }
+ .act{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 34px;
+
+ }
+
+ /* meet our team related styles  */
+ .team{
+    width: 1440px;
+    margin: 0 auto;
+    text-align: center;  
+  
+
+    
+}
+.team-container{
+    width: 1060px;
+    height: 604px;
+    background-color: #222222;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+}
 
 
 /* responsive media quarry  */
 
 @media screen and (max-width: 576px) {
+   
+    .bg-h{
+        max-width: 393px;
+        max-height: 1224px;
+        
+    }
+    
     .hide{
         display: none;
     }
@@ -236,6 +349,7 @@
     .mobile{
         display: inline;
     }
+   
 
     /* habit responsiveness  */
     .habit{
@@ -260,6 +374,41 @@
     }
     .run-card{
         flex-direction: column;
+    }
+    .BMI-container{
+        height: 772px;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+    .BMI{
+       max-width: 350px; 
+        max-height: 125px;
+        margin: 1px 1px ; 
+        padding: 1px 1px 1px 1px;
+    
+        
+    }
+    .b-title{
+        font-weight: bold;
+        font-size: 2rem;
+        
+    
+    }
+    .b-description{
+        font-weight: 400px;
+        font-size: 0.5rem;
+        padding-bottom: 30px;
+    
+    }
+    .form-title{
+        font-size: 1rem;
+    }
+    .des-title{
+        font-size: 1rem;
+    }
+    .form-description{
+        font-size: 0.7rem;
     }
 
 }

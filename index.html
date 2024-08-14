@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/assignment2.css">
 </head>
 <body class="work-sans-font bg-1">
-    <header>
+    <header class="bg-h">
         <nav class="navbar display-flex">
             <h3 class="brand text-tomato"><i>Fitness</i></h3>
             <ul class="nav-links display-flex hide">
@@ -22,7 +22,7 @@
         <div class="banner display-flex">
           <div class="banner-container-1">
             <h1 class="banner-title text-b-white">
-                Get body in <br> <span><i>shape</i></span> & stay healthy
+                Get body in <span><i>shape</i></span> & stay healthy
             </h1>
             <p class="banner-description text-s-white">
                 A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!
@@ -105,25 +105,112 @@
 
           </section>
 
-          <!-- BMI calculator section start  -->
+          <!-- BMI calculator description section start  -->
 
           <section>
           <div class="BMI">
             <h3 class="b-title text-b-white">BMI Calculator</h3>
             <p class="b-description text-s-white">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
           </div>
+          </section>
+          <!-- BMI table and form section start  -->
 
-          <div class="BMI-container">
+          <div class="BMI-container display-flex">
             <div class="table">
+              <h1 class="text-b-white des-title"> BMI Calculator Chart</h1>
+    <table class="tb">
+       
+        <thead>
+            <tr>
+                <th class="text-s-white">BMI</th>
+                <th class="text-s-white">Weight status</th>
+                
+
+            </tr>
+            
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="text-s-white">Bellow 18.5</td>
+                <td class="text-s-white">Underweight</td>
+                
+            </tr>
+            <tr>
+                <td class="text-s-white">18.5-24.9</td>
+                <td class="text-s-white">Healthy</td>
+               
+            </tr>
+            <tr>
+                <td class="text-s-white">25.0-29.9</td>
+                <td class="text-s-white">Overweight</td>
+       
+
+            </tr>
+            <tr>
+                <td class="text-s-white">30.0-and Above</td>
+                <td class="text-s-white">Obese</td>
+                
+
+            </tr>
+
+
+        </tbody>
+        
+    </table>
 
 
             </div>
-            <div class="form">
+            <div class="form-container">
+                <h1 class="text-b-white form-title">
+                    Calculate your BMI
+                </h1>
+               <p class="form-description text-s-white">
+                We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. 
+               </p>
+               <form class="form">
+                <div class="gap">
+                    <input type="text" class="height" placeholder="Height/cm">
+                <input type="text" class="weight" placeholder="Weight/kg">
+                </div>
+               <div class="gap">
+                <input type="text" class="age" placeholder="Age">
+                <select class="Sex" name="sex" id="sex">
+                    <option value="">Sex</option>
+                </select>
+
+               </div>
+
+                <select class="act" name="Activity" id="act">
+                    <option value="">Select an activity factor</option>
+                </select>
+
+
+
+                
+                
+                
+           </form>
+           <button class="btn-primary">Calculate</button>
 
                 
             </div>
 
           </div>
+          </section>
+
+          <!-- meet our team section start  -->
+
+          <section>
+            <div class="team">
+                <h3 class="t-title text-b-white">Meet Our Team</h3>
+                <p class="t-description text-s-white">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+              </div>
+              <div class="team-container">
+
+              </div>
+
           </section>
 
 
